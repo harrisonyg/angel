@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Shirt Pattern Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <h1>Shirt Pattern Generator</h1>
+    <form>
+      <label for="chest-size">Chest Size (in inches):</label>
+      <input type="number" id="chest-size" name="chest-size" min="30" max="60" value="40">
+      <br>
+      <label for="shoulder-size">Shoulder Size (in inches):</label>
+      <input type="number" id="shoulder-size" name="shoulder-size" min="14" max="24" value="18">
+      <br>
+      <label for="sleeve-length">Sleeve Length (in inches):</label>
+      <input type="number" id="sleeve-length" name="sleeve-length" min="25" max="40" value="32">
+      <br>
+      <label for="shirt-length">Shirt Length (in inches):</label>
+      <input type="number" id="shirt-length" name="shirt-length" min="25" max="40" value="32">
+      <br>
+      <button type="button" onclick="generatePattern()">Generate Pattern</button>
+    </form>
+    <canvas id="canvas"></canvas>
+  </body>
+</html>

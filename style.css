@@ -1,0 +1,38 @@
+h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type="number"] {
+    width: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  canvas {
+    margin: 0 auto;
+    display: block;
+    border: 1px solid black;
+  }
+  
